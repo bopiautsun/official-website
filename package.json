@@ -1,0 +1,14 @@
+{
+  "name": "bo-piau-tsun-tse-tsok-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio for 不標準製作",
+  "scripts": {
+    "check": "node scripts/check-site.mjs",
+    "test:reader": "node scripts/check-reader-interactions.mjs",
+    "smoke": "node scripts/browser-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

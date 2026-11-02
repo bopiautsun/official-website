@@ -1,0 +1,528 @@
+{
+  "profiles": {
+    "off": {
+      "heading": "INSTRUCTION",
+      "intro": "Press a name to light up that person's work. Press both for the studio. The printed slip holds writings.",
+      "short": "Press a name to light up their work, both for the studio. The printed slip holds writings."
+    },
+    "a": {
+      "heading": "Yu-Fang LAI",
+      "cn": "賴 榆 方",
+      "intro": "Currently pursuing her master’s degree in Integrative Design and Media at NYU Tandon School of Engineering. Working across interactive installations, physical computing, and experimental media, Lai delves into the strange relationships between humans, machines, and the systems standing behind the heavy curtain. Her interests, however, are not limited to any particular medium or subject. She enjoys trying new things, following unexpected curiosities, and occasionally wondering what exactly she is doing. Still figuring out what kind of human she wants to be, she has at least one clear ambition in life: to become a master of playlist curation✧˖°.",
+      "short": "Interactive Installation, Physical Computing, Sound & Live Performance. Currently pursuing MS at NYU Tandon.",
+      "contact": "yf.yvonne.lai@gmail.com",
+      "education": [
+        {
+          "year": "2025–",
+          "text": "MS, Integrated Design & Media — NYU Tandon School of Engineering, New York"
+        },
+        {
+          "year": "2021-2025",
+          "text": "BFA, Interdisciplinary Program of Technology and Art — National Tsing Hua University, Taiwan"
+        }
+      ],
+      "exhibitions": [
+        {
+          "year": "2024",
+          "text": "微噪 18.98 Hz — group exhibition. National Tsing Hua University, Taiwan"
+        },
+        {
+          "year": "2024",
+          "text": "Laval Virtual 2024 — XR exhibition. \n\nEspace Mayenne, Laval, France"
+        }
+      ],
+      "awards": [
+        {
+          "year": "2024",
+          "text": "Special Jury Prize — National Tsing Hua University Department Exhibition, Taiwan"
+        }
+      ],
+      "experience": [
+        {
+          "year": "2024",
+          "text": " Internship — Riverbed Theatre, Taiwan \n\n Assisted in creating stage sets and props for the VR live-action piece Silence and XR performance Blur.",
+          "hidden": true
+        }
+      ],
+      "instagram": "https://www.instagram.com/__yf___/"
+    },
+    "b": {
+      "heading": "Wei-Cheng HSU",
+      "cn": "許 煒 晟",
+      "intro": "My ongoing pieces engage with digital technologies, electronic devices, media archeology, and film historiography. Since I am extremely eager to understand the surrounding world more clearly through art, I suppose I must fumble further and make the list above longer. We are rushing on a spiral path, which returns to the same point vertically in every circuit. From certain perspectives, our politics, technologies, media, and culture follow this law. This is the reason why I dive into both the present and past in my practices. They always echo each other and inspire me.",
+      "short": "Installation, VR art, live video, and performance. MFA Digital Art at Pratt.",
+      "contact": "scott2984623@gmail.com",
+      "education": [
+        {
+          "year": "2026-",
+          "text": "MFA, Digital Art — Pratt Institute, New York"
+        },
+        {
+          "year": "2021-2025",
+          "text": "BFA, Interdisciplinary Program of Technology and Art — National Tsing Hua University, Taiwan"
+        }
+      ],
+      "exhibitions": [
+        {
+          "year": "2024",
+          "text": "Laval Virtual 2024 — XR exhibition. Espace Mayenne, Laval, France"
+        },
+        {
+          "year": "2023",
+          "text": "Lift-Off Filmmaker Sessions — online festival"
+        },
+        {
+          "year": "2023",
+          "text": "First-Time Filmmaker Sessions — online festival"
+        }
+      ],
+      "awards": [
+        {
+          "year": "2023",
+          "text": "Quarter-Finalist — 2023 Student World Impact Film Festival"
+        },
+        {
+          "year": "2022",
+          "text": "百大精選獎 — 第七屆青春有影 2022 大學盃"
+        }
+      ],
+      "experience": [],
+      "instagram": "https://www.instagram.com/wei._.scott_nob/"
+    },
+    "group": {
+      "heading": "Bô Piau Tsun Tsè-Tsok",
+      "cn": "不 標 準 製 作",
+      "intro": "Bô Piau Tsun Tsè-Tsok is the Taiwanese Hokkien romanization of〔不〕Not 〔標準〕Standard 〔製作〕Production.\n\n‘bē’ and ‘bô,’ which mean not and without, can be easily mixed up in Taiwanese Hokkien. Therefore, it needs to be clarified that we are non-standard, but that doesn’t mean we have no standards.\n\nThe group consists of Wei-Cheng HSU and Yu-Fang LAI.",
+      "short": "Non-standard, but that doesn’t mean we have no standards.",
+      "exhibitions": [
+        {
+          "year": "2025",
+          "text": "@all — graduation exhibition. Huashan1914 Creative Park, Taiwan"
+        },
+        {
+          "year": "2024",
+          "text": "糾纏的機緣 — group exhibition. Digital Art Center, Taiwan"
+        }
+      ],
+      "awards": [
+        {
+          "year": "2026",
+          "text": "銀獎 — 115年全國美術展, 國立臺灣美術館 \n Silver Prize, 2026 National Art Exhibition R.O.C., The National Taiwan Museum of Fine Arts"
+        }
+      ],
+      "conversation": [
+        {
+          "text": "你覺得我們是什麼樣的團體"
+        },
+        {
+          "text": "聳肩",
+          "aside": true
+        },
+        {
+          "text": "給我一點靈感"
+        },
+        {
+          "text": "滑手機 回訊息 翹腳",
+          "aside": true
+        },
+        {
+          "text": "無法被定義"
+        },
+        {
+          "text": "丟給我幾個keywords，要放什麼進去"
+        },
+        {
+          "text": "我沒想到 但你要看這個嗎"
+        },
+        {
+          "text": "與前進方向平行的叫橫波，與前進方向垂直的叫高低坡叫縱波"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "group": [
+      {
+        "id": "01110100-01101111",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Digital Installation · 2025",
+        "title": "01110100 01101111",
+        "cn": "",
+        "role": "",
+        "artists": "Wei-Cheng HSU, Yu-Fang LAI",
+        "medium": "Electronic materials, Arduino, acrylic, wood, paper",
+        "dimensions": "2 × 3 × 1.8 m",
+        "link": "",
+        "blurb": "We once acquired a light fixture that had been discarded by LuxuryLogico, which was said to be controllable via Arduino. However, upon trying out, we discovered that the previous owner had developed their own custom circuit board and code. Unfortunately, the memory card that stored the code might have been damaged over time, rendering all control and switching functions inoperative, leaving only a circuit board capable of powering on. This led us to reflect on how digital data can be lost due to various causes, such as electromagnetic interference or electrostatic discharge. From this observation, we identified three potential challenges facing humanity in an age highly dependent on digital technology:\n\n1. All contemporary knowledge, academic research, and cultural development have been digitized and moved to the cloud. On the day humanity becomes extinct, these assets will vanish along with us. From an archaeological perspective, this raises the possibility that future civilizations may only see us as apes who created a lot of metal plates. Our intellectual legacy may become inaccessible, rendering us the prehistoric people of the future.\n\n2. Modern digital processors are built upon the logic of central processing units (CPUs), which have propelled the development of computer technology. However, when operating systems, compiler logic, and decoding mechanisms disappear alongside digital assets, even if future archaeologists obtain an MP4 video file, they may be unable to access its contents.\n\n3. Humanity has spent an entire century (or tens of thousands of years if we trace back to Homo sapiens) developing binary digital logic—a logic that defines contemporary thinking. Yet this, too, will be buried with humanity.\n\n01110100 01101111 adopts a media archaeology perspective to explore the digital and cultural layers embedded in digital cultural assets and contemporary computer logic. At the same time, through the repurposing of technological forms, we seek to re-examine and re-engage with modern technologies.",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/01110100 01101111-4.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/01110100 01101111-1.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/01110100 01101111-2.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/01110100 01101111-3.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://youtu.be/dgKdhbzrFHo?si=WegyK6Fz7rLpZR2J",
+            "caption": "Documentation"
+          }
+        ]
+      },
+      {
+        "id": "peering-through-the-collapse",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Installation · 2024",
+        "title": "Peering Through the Collapse",
+        "cn": "在塌縮的屍堆中探頭窺看",
+        "role": "",
+        "artists": "Wei-Cheng HSU, Yu-Fang LAI",
+        "medium": "Arduino, Plasma Ball, TouchDesigner, QRNG",
+        "dimensions": "1.1 × 0.7 × 1.4 m",
+        "link": "",
+        "blurb": "Quantum physics tells us that everything we see, including ourselves, is made of quanta. However, in our everyday world, we are separated from quantum properties like superposition, entanglement, and randomness by a gap we cannot cross. Today, we use data to imagine and apply quantum states, but we cannot truly experience them. This work tries to bridge that gap by collecting real-time quantum random numbers generated on-site, using them to control the currents in a plasma ball, making randomness visible and tangible.\n\nOn the \"B-side\" of this work, these collapsed quantum states, stripped of their quantum characteristics, can, to some extent, be seen as \"quantum corpses.\" We question: If creations are built upon these \"corpses,\" can they truly be considered quantum art?",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/peering-1.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/peering-2.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/peering-3.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/peering-4.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/peering-5.jpg",
+            "caption": ""
+          },
+          {
+            "type": "video",
+            "src": "",
+            "poster": "",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://youtu.be/JS4LMvRSoyc?si=_ihgSB6KL1GbcHJU",
+            "caption": "Documentation"
+          }
+        ]
+      }
+    ],
+    "a": [
+      {
+        "id": "Centering",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Live Performance · 2026",
+        "title": "Centering",
+        "cn": "",
+        "role": "",
+        "artists": "",
+        "supervisor": "",
+        "medium": "Max9, game console",
+        "dimensions": "4min 30sec",
+        "link": "",
+        "blurb": "Centering is a basic technique in wheel pottery. It means placing the clay at the center of the wheel and making it stay steady as the wheel begins to turn. When the clay is not centered, the faster the wheel spins, the harder it becomes to shape. It may wobble, resist the hand, or even leave the wheel. In this performance, the performer uses a game controller to shape digital vessels. Each vessel produces its own sound, and after it is made, it stays in the space and continues to resonate with the others.\n\nThe work starts from this quiet act of making: adjusting, listening, and trying to keep things steady while everything keeps moving.",
+        "media": []
+      },
+      {
+        "id": "turning-around",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Interactive Installation · 2025",
+        "title": "Turning Around",
+        "cn": "",
+        "role": "",
+        "artists": "",
+        "supervisor": "",
+        "medium": "",
+        "dimensions": "",
+        "link": "",
+        "blurb": "Interactive installation exploring themes of perception and reality. Placeholder.",
+        "media": []
+      },
+      {
+        "id": "zhan",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Immersive Live Performance · 2024",
+        "title": "ZHAN",
+        "cn": "瞻",
+        "role": "",
+        "artists": "Wei-Cheng HSU, Cheng-Yun YEH, Yu-Fang LAI",
+        "medium": "Stable Diffusion, Redream, TouchDesigner, Ableton Live",
+        "dimensions": "Size varies with the space",
+        "link": "",
+        "blurb": "The title 'Zhan' means watching or looking forward in Chinese, taken from the form and meaning of the ritual 'Guān Luò Yīn.'\n\n'Guān Luò Yīn' is an ancient ritual led by an experienced Taoist priest. During the ritual, participants are blindfolded with a black or red cloth. This practice aims to resolve issues that cannot be easily solved in the physical world, such as meeting a departed loved one, or witnessing one's own destiny.\n\nIn Taiwan's tech culture, VR experience is often used to draw parallels with Guān Luò Yīn because both block the viewer's view, immersing them in alternate realities. Despite the similarities, there are three states VR hasn't reached currently: the 'Unreplicable Experience,' the 'Incomplete Spiritual Journey,' and 'Transcendence of Consciousness.'\n\nOur project seeks to bridge this gap by conceptualizing a hybrid of VR and experimental performance. Through the fusion of VR, live performance, and real-time AI-generated images, we endow VR with these characteristics.\n\nEmploying AI as a spiritual entity, we provide superconscious imagery based on audience descriptions within VR headsets in real-time. The artists, akin to priests, act as intermediaries between believers and ethereal beings, building a co-creative environment involving viewers, actors, and AI. All aspects of creation—sound, vision and dialogue—are built in real-time, operated by actors, aiming to create an individual-differences environment to achieve the aforementioned three states.\n\nWe reexamine how VR can 'retrieve' the essence of Guān Luò Yīn, heralding its potential future in real-time and subconscious experiences.",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/zhan.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://www.youtube.com/watch?v=svTuC1qKzyo",
+            "caption": "Demo video"
+          }
+        ]
+      },
+      {
+        "id": "the-only-thing-i-can-do-for-you",
+        "cover": "asset/hug1.jpg",
+        "heroLayout": "full",
+        "tag": "Interactive Installation · 2024",
+        "title": "The Only Thing I Can Do for You",
+        "cn": "一個擁抱",
+        "role": "",
+        "artists": "Yu-Fang LAI",
+        "medium": "Arduino, blower, self-made inflatable structure",
+        "dimensions": "2 × 2 × 1.2 m",
+        "link": "",
+        "blurb": "When you need comfort, how should I respond? After hesitating over the text box, I finally send, \"I'll give you a hug.\"\n\nYet, our different backgrounds and experiences blur the sincerity— I can't fully feel the pain in your chest, and you can't see the thoughts on my back. When we remove the human element from a hug, can it become a purer form of comfort?\n\nStanding within the installation, the audience feels a slight pressure, simulating the sensation of being hugged. In the interplay between inflation and deflation, the piece offers an artificial, non-human hug that is genuine and pure.",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/hug1.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/hug2.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://www.youtube.com/watch?v=NTODF5fPy3I",
+            "caption": "Demo video"
+          }
+        ]
+      },
+      {
+        "id": "keep-working",
+        "cover": "asset/keep_working1.png",
+        "heroLayout": "split",
+        "tag": "Installation · 2022",
+        "title": "Keep Working",
+        "cn": "",
+        "role": "Mechanism Design, Construction & Assembly",
+        "artists": "Deng-Kai ZHAN, Yu-Fang LAI",
+        "supervisor": "",
+        "medium": "Arduino, discarded metal parts, acrylic",
+        "dimensions": "50 × 20 × 60 cm",
+        "link": "",
+        "blurb": "The work consists of two parts. The lower horizontal plane features a multi-link mechanism, resembling a windshield wiper, that continuously sweeps the ground. Above it, a machine made of various parts drips black liquid, symbolizing the occurrence of both large and small events. Like a malfunctioning machine, these droplets fall into the sweeping area and are brushed aside. Despite its apparent flaws, the multi-link mechanism maintains its perpetual motion.\n\nAs children, we memorized sayings like \"everyone is a screw,\" small yet indispensable. However, when major events occur and time passes, life continues, and the gears keep turning. This feeling mirrors the works of manga artist Tatsuki Fujimoto, where sudden plot explosions quickly return to the mundane, imparting a sense of powerlessness and reminding us that our existence is not eternal. We chose \"cleaning\" as the dynamic element of our work, connecting it to childhood memories of windshield wipers that left behind uncomfortable traces, evoking a profound sense of powerlessness.",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/keep_working1.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "song-of-military-discipline",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Music Video · 2022",
+        "title": "Song of Military Discipline",
+        "cn": "軍紀歌",
+        "role": "Producer, Editor, Actor",
+        "artists": "Han-Yun ZHUANG, Yan-Zhen LI, Cheng-Yun YEH, Min-Xuan HONG, Yu-Fang LAI",
+        "medium": "Music video",
+        "dimensions": "2 min 21 sec",
+        "link": "",
+        "blurb": "Using humorous visual language, 軍紀歌 questions and resists the age-based hierarchical system within the school environment. The illogical visual narrative intertwines past real-life experiences, accompanied by the highly submissive lyrics of military songs, forming our response to this unreasonable class structure.",
+        "media": [
+          {
+            "type": "embed",
+            "src": "https://www.youtube.com/watch?v=_2s1t9_OL4U",
+            "caption": "Demo video"
+          }
+        ]
+      }
+    ],
+    "b": [
+      {
+        "id": "zhan",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Immersive Live Performance · 2024",
+        "title": "ZHAN",
+        "cn": "瞻",
+        "role": "",
+        "artists": "Wei-Cheng HSU, Cheng-Yun YEH, Yu-Fang LAI",
+        "medium": "Stable Diffusion, Redream, TouchDesigner, Ableton Live",
+        "dimensions": "Size varies with the space",
+        "link": "",
+        "blurb": "The title 'Zhan' means watching or looking forward in Chinese, taken from the form and meaning of the ritual 'Guān Luò Yīn.'\n\n'Guān Luò Yīn' is an ancient ritual led by an experienced Taoist priest. During the ritual, participants are blindfolded with a black or red cloth. This practice aims to resolve issues that cannot be easily solved in the physical world, such as meeting a departed loved one, or witnessing one's own destiny.\n\nIn Taiwan's tech culture, VR experience is often used to draw parallels with Guān Luò Yīn because both block the viewer's view, immersing them in alternate realities. Despite the similarities, there are three states VR hasn't reached currently: the 'Unreplicable Experience,' the 'Incomplete Spiritual Journey,' and 'Transcendence of Consciousness.'\n\nOur project seeks to bridge this gap by conceptualizing a hybrid of VR and experimental performance. Through the fusion of VR, live performance, and real-time AI-generated images, we endow VR with these characteristics.\n\nEmploying AI as a spiritual entity, we provide superconscious imagery based on audience descriptions within VR headsets in real-time. The artists, akin to priests, act as intermediaries between believers and ethereal beings, building a co-creative environment involving viewers, actors, and AI. All aspects of creation—sound, vision and dialogue—are built in real-time, operated by actors, aiming to create an individual-differences environment to achieve the aforementioned three states.\n\nWe reexamine how VR can 'retrieve' the essence of Guān Luò Yīn, heralding its potential future in real-time and subconscious experiences.",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/zhan.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://www.youtube.com/watch?v=svTuC1qKzyo",
+            "caption": "Demo video"
+          }
+        ]
+      },
+      {
+        "id": "print-er",
+        "cover": "",
+        "heroLayout": "full",
+        "tag": "Performance · 2026",
+        "title": "Print-ER",
+        "cn": "",
+        "role": "",
+        "artists": "Wei-Cheng HSU",
+        "supervisor": "",
+        "medium": "3D Printer, PLA, TouchDesigner",
+        "dimensions": "Variable in Spaces",
+        "link": "",
+        "blurb": "Print-ER is an artwork that combines 3D printing with performance. Throughout the work, the artist's walking trajectory is continuously recorded and translated into data. The body is situated within the production framework of G-code, becoming a laboring unit that must respond to the operational logic, constraints, and sequential procedures of the printing system. Conversely, the machine is partially liberated from its conventional role within a standardized manufacturing paradigm. Rather than executing a predetermined model, the operating 3D printer responds to data generated through the artist's movement. The recorded trajectory is processed through a custom algorithm and mapped onto the printer in real time, forming a mode of production aligned with the variability and imperfections of human action. Through this process, the artist's body performs mechanical production, while the machine reciprocates with its own precise mechanical embodiment.\n\n《Print-ER》是一件結合3D列印與行為藝術的作品。在作品中，藝術家的行走路徑將被持續記錄，身體被置於G-code的生產框架之中，成為一個必須回應邏輯與流程的勞動單位。另一方面，機器則從標準的生產範式中被解放。藝術家的路徑經過演算法運算，映射至運作中的 3D 列印機上，形成一個與人類誤差對齊的生產結構。在此過程中，藝術家身體持續執行機械生產，而機器則用「精準的機械身體」回應這個瑕疵、異化的勞動成果。",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/Printer.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "an-hour-waiting",
+        "cover": "asset/An Hour Waiting.jpg",
+        "heroLayout": "full",
+        "tag": "Video Art · 2023",
+        "title": "An Hour Waiting",
+        "cn": "一小時的等待",
+        "role": "Director/Screenwriter/Cast",
+        "artists": "Wei-Cheng HSU, Sophie HUANG",
+        "supervisor": "",
+        "medium": "Digital Film",
+        "dimensions": "Variable in Spaces",
+        "link": "",
+        "blurb": "The convergence of time and space, driven by communication technology over the past 40 years, has reached the level of the global village proposed by McLuhan. For example, when we have an appointment and the person is late, we can use messages, voice, video calls, and even positioning. You can even cancel the appointment before the last second.\n\nAfter removing these technologies, what will waiting become? When we return to the writing generation, or even the earlier oral generation, breaking the accustomed convergence of time and space, the physical experience of waiting is far different from the regular.\n\nNowadays, it is difficult for us to imagine the so-called sense of time, space, and waiting. We do not, and cannot, go back to experiencing such feelings. This film constructs an environment where communication technology is removed. The story describes waiting for a person, showing or reproducing the loneliness, uncertainty, and no signal that can no longer be experienced.\n\n過去四十年間，通訊技術的快速發展推動了時間與空間的壓縮，並最終達到了麥克魯漢提出的「地球村」。例如，當我們赴約而對方遲到時，我們可以發送簡訊、語音通話、視訊通話，甚至定位，甚至可以在最後一刻取消預約。\n\n如果移除這些技術，等待又會變成什麼樣子？當我們回歸書寫時代，甚至更早的口語時代，打破習以為常的時空收斂，等待的體驗將與以往截然不同。\n\n如今，我們很難想像所謂的時間感、空間感和等待感。我們無法，也永遠不會再回到那種感受之中。這部影片建構了一個通訊技術缺失的環境。故事講述了一個人等待的過程，展現或再現了那種我們再也無法體驗到的孤獨、不安和茫然。",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/An Hour Waiting.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://youtu.be/L7bcL_B9iHo",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "nthu-graduation-mv",
+        "cover": "asset/MV.jpg",
+        "heroLayout": "split",
+        "tag": "Music Video · 2023",
+        "title": "NTHU Official Graduation Song MV",
+        "cn": "新竹風怎麼這麼大",
+        "role": "Director/Writer/Edit/Colorist",
+        "artists": "Wei-Cheng HSU",
+        "supervisor": "",
+        "medium": "Digital Film",
+        "dimensions": "Variable in Spaces",
+        "link": "",
+        "blurb": "Producer 黃晧瑄\n\nAssistant Director 榮宗弘\n\nDirector of Photography 石宗璿\n\nProduction Designer 楊凱湉、吳又又\n\nCast 吳沂靜、李庭萱、蔡益龍、許育嘉、游雅婷",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/MV.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://youtu.be/kfuOX3APyEA",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "dream-of-scipio",
+        "cover": "asset/The Dream of Scipio.jpg",
+        "heroLayout": "full",
+        "tag": "Experimental Film · 2022",
+        "title": "The Dream of Scipio",
+        "cn": "西庇阿之夢",
+        "role": "Director/Camera Operator/Editor",
+        "artists": "Wei-Cheng HSU, Sophie HUANG",
+        "supervisor": "",
+        "medium": "Digital Film",
+        "dimensions": "Variable in Spaces",
+        "link": "",
+        "blurb": "Dreams occur during the later stages of sleep, characterized by rapid eye movement and a light sleep state. Yet, they feel so vivid, uncertain, and inexplicable, constantly reminding us that dreams may be more than mere illusions. Where do they originate? What exactly is a dream before becoming a dream?\n\nUsing a prose-like narrative style and long takes, we aim to highlight the intrinsic nature and characteristics of dreams and to evoke the surreal, otherworldly quality of dreamscapes.\n\n夢境發生在睡眠的後期階段，其特徵是眼球快速運動和淺睡眠狀態。然而，夢境卻如此生動、不確定且難以解釋，不斷提醒我們，夢境或許不只是幻覺。它們源起於何處？在夢境成為夢境之前，它究竟是什麼？\n\n我們運用散文式的敘事風格和長鏡頭，旨在凸顯夢境的內在本質和特徵，並喚起夢境中超現實、異世界的特質。",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/The Dream of Scipio.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://youtu.be/UHzsbWcyQoE",
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  "writings": [
+    {
+      "id": "01110100-01101111-2026",
+      "title": "《01110100 01101111》：數位動態影像下文化內容與媒介形式的雙重考古",
+      "meta": "Conference paper · 2026",
+      "authors": "Wei-Cheng HSU, Yu-Fang LAI",
+      "projectId": "01110100-01101111",
+      "pdf": "asset/2026年會全文_許煒晟_《01110100 01101111》：數位動態影像下文化內容與媒介形式的雙重考古 _.pdf",
+      "link": "reader.html?paper=01110100-01101111-2026"
+    },
+    {
+      "title": "01110100 01101111: A Practice-Based Inquiry into Digital Archival Bias and Legibility",
+      "meta": "Essay · 2025",
+      "authors": "Wei-Cheng HSU, Yu-Fang LAI, Chih-Yung Chiu",
+      "link": ""
+    },
+    {
+      "title": "Immersive Media Retrieving Spiritual Ritual: Co-constructed Narratives of Virtual Reality, Artificial Intelligence, and Theatrical Arts",
+      "meta": "Essay · 2024",
+      "authors": "Wei-Cheng HSU, Yi-Chun KO, Cheng-Yun YEH, Yu-Fang LAI",
+      "link": "https://zenodo.org/records/13382838"
+    }
+  ]
+}

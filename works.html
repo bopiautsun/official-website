@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index — 不標準製作 / Bô Piau Tsun Tsè-Tsok</title>
+<meta name="description" content="Projects, writing, profiles, and CVs by Yu-Fang LAI and Wei-Cheng HSU of 不標準製作 — Bô Piau Tsun Tsè-Tsok.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Orbitron:wght@500;600;700;800&family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="works.css">
+<link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="works.html">
+    <span class="brand-cn">不標準製作</span>
+    <span class="brand-en">Bô Piau Tsun Tsè-Tsok</span>
+  </a>
+  <nav class="topnav" aria-label="Main navigation">
+    <a href="index.html">Console&nbsp;↗</a>
+    <a href="works.html" aria-current="page" class="active">Index</a>
+    <a href="reader.html">Portfolio</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1 class="hero-title" id="indexTitle">不標準製作</h1>
+    <p class="hero-sub" id="statement">—</p>
+    <div class="hero-actions" id="heroActions">
+      <a class="action primary" href="#works-h">View works</a>
+      <a class="action" href="#people-h">Profiles &amp; CV</a>
+      <a class="action" href="reader.html">Portfolio</a>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="works-h">
+    <div class="block-head">
+      <h2 id="works-h" class="block-title">Works</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter works"></div>
+    </div>
+    <div id="worksList"></div>
+  </section>
+
+  <section class="block" aria-labelledby="writing-h">
+    <div class="block-head"><h2 id="writing-h" class="block-title">Writing</h2></div>
+    <div id="writingList"></div>
+  </section>
+
+  <section class="block" aria-labelledby="people-h">
+    <div class="block-head"><h2 id="people-h" class="block-title">Profiles &amp; CV</h2></div>
+    <div id="peopleList" class="people"></div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="foot-col">
+    <div class="foot-cn">不標準製作</div>
+    <div class="foot-line">Bô piau tsun tsè-tsok</div>
+  </div>
+  <div class="foot-col">
+
+  </div>
+  <div class="foot-col foot-meta">
+    <div>Taiwan</div>
+    <div id="foot-year">© —</div>
+  </div>
+</footer>
+
+<script src="image-manifest.js"></script>
+<script src="shared.js"></script>
+<script src="works.js"></script>
+</body>
+</html>

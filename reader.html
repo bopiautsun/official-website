@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — 不標準製作 / Bô Piau Tsun Tsè-Tsok</title>
+<meta name="description" content="Read the portfolios of Yu-Fang LAI and Wei-Cheng HSU of 不標準製作 — Bô Piau Tsun Tsè-Tsok.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Orbitron:wght@500;600;700;800&family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="works.css">
+<link rel="stylesheet" href="reader.css">
+<link rel="stylesheet" href="navigation.css">
+</head>
+<body class="reader">
+
+<header class="topbar">
+  <a class="brand" href="works.html">
+    <span class="brand-cn">不標準製作</span>
+    <span class="brand-en">Bô Piau Tsun Tsè-Tsok</span>
+  </a>
+  <nav class="topnav" aria-label="Main navigation">
+    <a href="index.html">Console&nbsp;↗</a>
+    <a href="works.html">Index</a>
+    <a href="reader.html" aria-current="page" class="active">Portfolio</a>
+  </nav>
+</header>
+
+<section class="reader-stage" id="stage">
+  <section class="book-select" id="bookSelect">
+    <h1 class="book-select-title">Choose a portfolio</h1>
+    <p class="book-select-note">Select a book to open it.</p>
+    <div class="book-grid">
+      <button class="book-card book-a" type="button" data-book="a" aria-label="Open Yu-Fang LAI’s portfolio">
+        <span class="book-cover">
+          <canvas class="book-thumbnail" aria-hidden="true" hidden></canvas>
+          <span class="book-cover-status">Loading cover…</span>
+        </span>
+        <span class="book-caption">Yu-Fang LAI<span aria-hidden="true">↗</span></span>
+      </button>
+      <button class="book-card book-b" type="button" data-book="b" aria-label="Open Wei-Cheng HSU’s portfolio">
+        <span class="book-cover">
+          <canvas class="book-thumbnail" aria-hidden="true" hidden></canvas>
+          <span class="book-cover-status">Loading cover…</span>
+        </span>
+        <span class="book-caption">Wei-Cheng HSU<span aria-hidden="true">↗</span></span>
+      </button>
+    </div>
+  </section>
+</section>
+
+<dialog class="portfolio-dialog" id="readerDialog" aria-labelledby="readerTitle">
+  <header class="reader-header">
+    <div><p class="reader-eyebrow" id="readerKind">Portfolio</p><h2 id="readerTitle">Portfolio</h2><p class="reader-help" id="readerHelp">Tap left/right to turn · Double-tap to zoom</p></div>
+    <button class="reader-close" id="closeReader" type="button" aria-label="Close reader">Close ×</button>
+  </header>
+  <div class="reader-view" id="readerView" aria-busy="false">
+    <p class="reader-msg" id="msg" role="status" hidden>Loading portfolio…</p>
+    <div class="reader-page" id="page" hidden>
+      <div class="reader-canvas-wrap" id="canvasWrap"><canvas id="canvas" role="img" aria-label="Portfolio page" aria-describedby="readerHelp"></canvas></div>
+    </div>
+  </div>
+  <footer class="reader-controls" id="controls" hidden>
+    <div class="reader-pagination">
+      <button class="rc-btn" id="cPrev" type="button" aria-label="Previous page">‹</button>
+      <span class="rc-page"><input id="pageInput" type="text" inputmode="numeric" pattern="[0-9]*" value="1" aria-label="Page number"> / <span id="pageTotal">–</span></span>
+      <button class="rc-btn" id="cNext" type="button" aria-label="Next page">›</button>
+    </div>
+    <div class="reader-zoom">
+      <button class="rc-btn" id="zOut" type="button" aria-label="Zoom out">−</button>
+      <button class="rc-fit" id="fitPage" type="button" aria-label="Fit page to view">Fit</button>
+      <button class="rc-fit" id="fitWidth" type="button" aria-label="Fit current page to width">Width</button>
+      <button class="rc-btn" id="zIn" type="button" aria-label="Zoom in">+</button>
+    </div>
+    <span class="sr-only" id="readerStatus" role="status" aria-live="polite"></span>
+  </footer>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Local review files and browser profiles
+.site-review/
+.preview-*/
+preview-*
+_site-preview.html
+
+# Large source images stay local; publish the generated WebP variants.
+/asset/*.[jJ][pP][gG]
+/asset/*.[jJ][pP][eE][gG]
+/asset/*.[pP][nN][gG]
+
+# Local tools, caches and private configuration
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+

@@ -1,0 +1,98 @@
+/* Shared navigation at every screen size. */
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 14px clamp(20px,5vw,64px);
+  background: rgba(234,214,171,.96);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #d9c093;
+}
+
+.topbar .brand {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.topbar .brand-cn {
+  font-family: var(--f-cn);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: .14em;
+  color: #E81819;
+}
+
+.topbar .brand-en {
+  font-family: var(--f-square);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: .08em;
+  color: #6b5138;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+.topbar .topnav,.reader .topnav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.topbar .topnav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  font-family: var(--f-square);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .02em;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #4f3b28;
+  padding: 8px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.topbar .topnav a:hover {
+  color: #b3101f;
+}
+
+.topbar .topnav a.active {
+  color: #b3101f;
+  border-bottom-color: #b3101f;
+}
+
+.topbar a:focus-visible {
+  outline: 2px solid #b3101f;
+  outline-offset: 4px;
+}
+
+.console-topbar ~ .viewport {
+  top: var(--nav-height,80px);
+}
+
+@media(max-width:760px) {
+  .topbar,.reader .topbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px 20px 8px;
+  }
+
+  .topbar .topnav,.reader .topnav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .console-topbar ~ .viewport .stage {
+    padding-top: 24px;
+  }
+}
