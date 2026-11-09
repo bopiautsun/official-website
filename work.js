@@ -1,5 +1,5 @@
 (function(){
-  const { load, esc, yearOf, typeOf, findProject, ownersOf, ownerLabel, embedUrl, imageTag, emailButton } = window.NSP;
+  const { load, esc, yearOf, typeOf, findProject, ownersOf, ownerLabel, embedUrl, imageTag } = window.NSP;
   const params = new URLSearchParams(location.search);
   const id = params.get('id');
   const main = document.getElementById('workMain');
@@ -78,7 +78,8 @@
     document.title = p.title + ' — 不標準製作';
     const yr = yearOf(p.tag), ty = typeOf(p.tag);
     // a project listed under several people (e.g. ZHAN under both a and b) shares this one page
-    const owner = ownersOf(data, p.id).map(k => ownerLabel(data, k)).join(' & ');
+    const owners = ownersOf(data, p.id);
+    const owner = owners.map(k => ownerLabel(data, k)).join(' & ');
 
     const isPH = s => !s || /^placeholder/i.test(String(s).trim());
     const metaBits = [ty, yr, owner].filter(Boolean).map(esc).join(' &nbsp;·&nbsp; ');
@@ -100,23 +101,33 @@
     const paras = String(p.blurb||'').split(/\n\n+/).map(t=>`<p>${esc(t)}</p>`).join('');
     const bodyHTML = `<div class="work-body">${paras}</div>`;
 
-    // media: first image = hero (heroLayout "full" = its own row above the text,
-    // "split" = side-by-side with the text); remaining images = slideshow below;
-    // video/embeds last.
+    // The first image leads unless heroLayout is "none", which sends all
+    // detail images to the slideshow. The cover is used for listings.
     const mediaList = (p.media || []).filter(validMedia);
     const images = mediaList.filter(m => m.type === 'image');
     const videos = mediaList.filter(m => m.type !== 'image');
-    const hero = images[0];
+    const hero = p.heroLayout === 'none' ? null : images[0];
     const split = hero && /^(split|inline)$/i.test(String(p.heroLayout||''));
     const heroHTML = hero ? `<div class="media">${mediaHTML(hero,true)}</div>` : '';
-    const rest = images.slice(1);
+    const rest = hero ? images.slice(1) : images;
     const videosHTML = videos.length ? `<div class="media">${videos.map(mediaHTML).join('')}</div>` : '';
     const emptyNotice = (!mediaList.length && !linkHTML)
       ? `<p class="media-empty">Documentation will be added soon.</p>` : '';
     const person=params.get('person');
     const backUrl='works.html'+(['a','b','group'].includes(person)?'?person='+person:'');
-    const contacts=ownersOf(data,p.id).filter(k=>data.profiles[k]?.contact)
-      .map(k=>emailButton(data.profiles[k].contact,`Copy ${ownerLabel(data,k)}’s email`,'action')).join('');
+    const contactOwners = new Set(owners.flatMap(key => {
+      const profile = data.profiles[key];
+      return key === 'group' && !profile?.contact && !profile?.instagram ? ['a','b'] : [key];
+    }));
+    const contacts = [...contactOwners].map(key => {
+      const profile = data.profiles[key];
+      if(!profile?.contact && !profile?.instagram) return '';
+      return `<li>
+        <strong>${esc(ownerLabel(data,key))}</strong>
+        ${profile.contact ? `<span class="work-email">${esc(profile.contact)}</span>` : ''}
+        ${profile.instagram ? `<a class="profile-link" href="${esc(profile.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>` : ''}
+      </li>`;
+    }).join('');
     const papers=(data.writings||[]).filter(w=>w.projectId===p.id && w.link)
       .map(w=>`<a class="action" href="${esc(w.link)}">Read paper ↗</a>`).join('');
 
@@ -136,8 +147,9 @@
         ${slideshowHTML(rest)}
         ${videosHTML}
         ${emptyNotice}
-        <footer class="work-end"><p>Explore more work or get in touch about this project.</p>
-          <div class="hero-actions">${papers}<a class="action" href="${backUrl}#works-h">More works</a>${contacts}<a class="action" href="works.html#people-h">Profiles &amp; CV</a></div>
+        <footer class="work-end">
+          ${contacts ? `<h2>Contact</h2><ul class="work-contacts">${contacts}</ul>` : ''}
+          <div class="hero-actions">${papers}<a class="action" href="${backUrl}#works-h">More works</a><a class="action" href="${backUrl}#people-h">Profiles &amp; CV</a></div>
         </footer>
       </article>`;
     bindSlideshow(rest);

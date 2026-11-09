@@ -239,7 +239,7 @@
     "a": [
       {
         "id": "Centering",
-        "cover": "",
+        "cover": "asset/centering-1.png",
         "heroLayout": "full",
         "tag": "Live Performance · 2026",
         "title": "Centering",
@@ -251,23 +251,55 @@
         "dimensions": "4min 30sec",
         "link": "",
         "blurb": "Centering is a basic technique in wheel pottery. It means placing the clay at the center of the wheel and making it stay steady as the wheel begins to turn. When the clay is not centered, the faster the wheel spins, the harder it becomes to shape. It may wobble, resist the hand, or even leave the wheel. In this performance, the performer uses a game controller to shape digital vessels. Each vessel produces its own sound, and after it is made, it stays in the space and continues to resonate with the others.\n\nThe work starts from this quiet act of making: adjusting, listening, and trying to keep things steady while everything keeps moving.",
-        "media": []
+        "media": [
+          {
+            "type": "embed",
+            "src": "https://youtu.be/-ZrP_lfYzLQ",
+            "caption": "Performance documentation"
+          }
+        ]
       },
       {
         "id": "turning-around",
-        "cover": "",
-        "heroLayout": "full",
+        "cover": "asset/strip-1.png",
+        "heroLayout": "none",
         "tag": "Interactive Installation · 2025",
-        "title": "Turning Around",
+        "title": "Turning around",
         "cn": "",
         "role": "",
-        "artists": "",
+        "artists": "Yu Fang Lai",
         "supervisor": "",
-        "medium": "",
-        "dimensions": "",
+        "medium": "Digital video & realtime generation, color, silent",
+        "dimensions": "Dimensions variable",
         "link": "",
-        "blurb": "Interactive installation exploring themes of perception and reality. Placeholder.",
-        "media": []
+        "blurb": "This work explores how we look at gendered bodies and how those views are shaped by culture, desire, and technology. I focus on Japanese striptease, which frames the exposed female body as something to admire rather than only teasing, yet our society rarely treats vaginas with that level of respect. In contrast, public symbols of the penis appear everywhere, but the idea of a male striptease built on worship rather than arousal feels almost absent.\n\nI use AI generation because current models still struggle way more to produce a penis than a vagina. This gap exposes the bias within both technology and the culture that trained it.\n\nThe piece begins by placing the viewer in the role of an audience member, then shifts control to let them move the performer, questioning where admiration ends and objectification begins. I want to open a conversation about agency, desire, and how we frame the bodies we watch.",
+        "media": [
+          {
+            "type": "image",
+            "src": "asset/strip-2.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/strip-3.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/strip-4.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/strip-5.jpg",
+            "caption": ""
+          },
+          {
+            "type": "embed",
+            "src": "https://vimeo.com/1245243797",
+            "caption": "Installation documentation"
+          }
+        ]
       },
       {
         "id": "zhan",
@@ -297,8 +329,8 @@
       },
       {
         "id": "the-only-thing-i-can-do-for-you",
-        "cover": "asset/hug1.jpg",
-        "heroLayout": "full",
+        "cover": "asset/hug-1.jpg",
+        "heroLayout": "split",
         "tag": "Interactive Installation · 2024",
         "title": "The Only Thing I Can Do for You",
         "cn": "一個擁抱",
@@ -311,12 +343,22 @@
         "media": [
           {
             "type": "image",
-            "src": "asset/hug1.jpg",
+            "src": "asset/hug-2.jpg",
             "caption": ""
           },
           {
             "type": "image",
-            "src": "asset/hug2.jpg",
+            "src": "asset/hug-1.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/hug-3.jpg",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/hug-4.jpg",
             "caption": ""
           },
           {
@@ -328,8 +370,8 @@
       },
       {
         "id": "keep-working",
-        "cover": "asset/keep_working1.png",
-        "heroLayout": "split",
+        "cover": "asset/working-1.png",
+        "heroLayout": "full",
         "tag": "Installation · 2022",
         "title": "Keep Working",
         "cn": "",
@@ -343,14 +385,24 @@
         "media": [
           {
             "type": "image",
-            "src": "asset/keep_working1.png",
+            "src": "asset/working-1.png",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/working-2.JPG",
+            "caption": ""
+          },
+          {
+            "type": "image",
+            "src": "asset/working-3.JPG",
             "caption": ""
           }
         ]
       },
       {
         "id": "song-of-military-discipline",
-        "cover": "",
+        "cover": "asset/military-1.jpg",
         "heroLayout": "full",
         "tag": "Music Video · 2022",
         "title": "Song of Military Discipline",
@@ -362,6 +414,11 @@
         "link": "",
         "blurb": "Using humorous visual language, 軍紀歌 questions and resists the age-based hierarchical system within the school environment. The illogical visual narrative intertwines past real-life experiences, accompanied by the highly submissive lyrics of military songs, forming our response to this unreasonable class structure.",
         "media": [
+          {
+            "type": "image",
+            "src": "asset/military-2.png",
+            "caption": ""
+          },
           {
             "type": "embed",
             "src": "https://www.youtube.com/watch?v=_2s1t9_OL4U",
@@ -449,7 +506,7 @@
       {
         "id": "nthu-graduation-mv",
         "cover": "asset/MV.jpg",
-        "heroLayout": "split",
+        "heroLayout": "full",
         "tag": "Music Video · 2023",
         "title": "NTHU Official Graduation Song MV",
         "cn": "新竹風怎麼這麼大",

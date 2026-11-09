@@ -60,54 +60,6 @@ window.NSP_IMAGE_VARIANTS = {
       "height": 900
     }
   ],
-  "asset/DSC00106-5.jpg": [
-    {
-      "src": "asset/optimized/DSC00106-5-640.webp",
-      "width": 640,
-      "height": 427
-    },
-    {
-      "src": "asset/optimized/DSC00106-5-1600.webp",
-      "width": 1600,
-      "height": 1067
-    }
-  ],
-  "asset/hug1.jpg": [
-    {
-      "src": "asset/optimized/hug1-640.webp",
-      "width": 640,
-      "height": 427
-    },
-    {
-      "src": "asset/optimized/hug1-1600.webp",
-      "width": 1600,
-      "height": 1067
-    }
-  ],
-  "asset/hug2.jpg": [
-    {
-      "src": "asset/optimized/hug2-640.webp",
-      "width": 640,
-      "height": 905
-    },
-    {
-      "src": "asset/optimized/hug2-1600.webp",
-      "width": 1600,
-      "height": 2263
-    }
-  ],
-  "asset/keep_working1.png": [
-    {
-      "src": "asset/optimized/keep_working1-640.webp",
-      "width": 640,
-      "height": 480
-    },
-    {
-      "src": "asset/optimized/keep_working1-1600.webp",
-      "width": 1600,
-      "height": 1200
-    }
-  ],
   "asset/MV.jpg": [
     {
       "src": "asset/optimized/MV-640.webp",
@@ -118,6 +70,114 @@ window.NSP_IMAGE_VARIANTS = {
       "src": "asset/optimized/MV-1600.webp",
       "width": 1600,
       "height": 900
+    }
+  ],
+  "asset/Printer.png": [
+    {
+      "src": "asset/optimized/Printer-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "asset/optimized/Printer-1600.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "asset/The Dream of Scipio.jpg": [
+    {
+      "src": "asset/optimized/The Dream of Scipio-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "asset/optimized/The Dream of Scipio-1600.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "asset/centering-1.png": [
+    {
+      "src": "asset/optimized/centering-1-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "asset/optimized/centering-1-1600.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "asset/hug-1.jpg": [
+    {
+      "src": "asset/optimized/hug-1-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "src": "asset/optimized/hug-1-1600.webp",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "asset/hug-2.jpg": [
+    {
+      "src": "asset/optimized/hug-2-640.webp",
+      "width": 640,
+      "height": 905
+    },
+    {
+      "src": "asset/optimized/hug-2-1600.webp",
+      "width": 1600,
+      "height": 2263
+    }
+  ],
+  "asset/hug-3.jpg": [
+    {
+      "src": "asset/optimized/hug-3-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "src": "asset/optimized/hug-3-1600.webp",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "asset/hug-4.jpg": [
+    {
+      "src": "asset/optimized/hug-4-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "src": "asset/optimized/hug-4-1600.webp",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "asset/military-1.jpg": [
+    {
+      "src": "asset/optimized/military-1-640.webp",
+      "width": 640,
+      "height": 359
+    },
+    {
+      "src": "asset/optimized/military-1-1600.webp",
+      "width": 1600,
+      "height": 898
+    }
+  ],
+  "asset/military-2.png": [
+    {
+      "src": "asset/optimized/military-2-640.webp",
+      "width": 572,
+      "height": 473
+    },
+    {
+      "src": "asset/optimized/military-2-1600.webp",
+      "width": 572,
+      "height": 473
     }
   ],
   "asset/peering-1.jpg": [
@@ -180,28 +240,112 @@ window.NSP_IMAGE_VARIANTS = {
       "height": 1067
     }
   ],
-  "asset/Printer.png": [
+  "asset/peering-6.jpg": [
     {
-      "src": "asset/optimized/Printer-640.webp",
+      "src": "asset/optimized/peering-6-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "src": "asset/optimized/peering-6-1600.webp",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "asset/strip-1.png": [
+    {
+      "src": "asset/optimized/strip-1-640.webp",
       "width": 640,
       "height": 360
     },
     {
-      "src": "asset/optimized/Printer-1600.webp",
+      "src": "asset/optimized/strip-1-1600.webp",
       "width": 1600,
       "height": 900
     }
   ],
-  "asset/The Dream of Scipio.jpg": [
+  "asset/strip-2.jpg": [
     {
-      "src": "asset/optimized/The Dream of Scipio-640.webp",
-      "width": 640,
-      "height": 360
+      "src": "asset/optimized/strip-2-640.webp",
+      "width": 639,
+      "height": 508
     },
     {
-      "src": "asset/optimized/The Dream of Scipio-1600.webp",
+      "src": "asset/optimized/strip-2-1600.webp",
       "width": 1600,
-      "height": 900
+      "height": 1271
+    }
+  ],
+  "asset/strip-3.jpg": [
+    {
+      "src": "asset/optimized/strip-3-640.webp",
+      "width": 640,
+      "height": 806
+    },
+    {
+      "src": "asset/optimized/strip-3-1600.webp",
+      "width": 1600,
+      "height": 2014
+    }
+  ],
+  "asset/strip-4.jpg": [
+    {
+      "src": "asset/optimized/strip-4-640.webp",
+      "width": 640,
+      "height": 804
+    },
+    {
+      "src": "asset/optimized/strip-4-1600.webp",
+      "width": 1600,
+      "height": 2010
+    }
+  ],
+  "asset/strip-5.jpg": [
+    {
+      "src": "asset/optimized/strip-5-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "src": "asset/optimized/strip-5-1600.webp",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "asset/working-1.png": [
+    {
+      "src": "asset/optimized/working-1-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "src": "asset/optimized/working-1-1600.webp",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "asset/working-2.JPG": [
+    {
+      "src": "asset/optimized/working-2-640.webp",
+      "width": 640,
+      "height": 853
+    },
+    {
+      "src": "asset/optimized/working-2-1600.webp",
+      "width": 1600,
+      "height": 2133
+    }
+  ],
+  "asset/working-3.JPG": [
+    {
+      "src": "asset/optimized/working-3-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "src": "asset/optimized/working-3-1600.webp",
+      "width": 1600,
+      "height": 1200
     }
   ],
   "asset/zhan.jpg": [

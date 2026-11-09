@@ -187,7 +187,6 @@ a.rowlink {
   height: 46px;
   border-radius: 3px;
   overflow: hidden;
-  background: var(--bg-2);
   display: block;
 }
 
@@ -279,6 +278,10 @@ a.rowlink:hover .r-title {
   border-bottom: 1px solid var(--rule);
 }
 
+.people > .person:only-child {
+  grid-column: 1 / -1;
+}
+
 .person h3 {
   font-weight: 700;
 }
@@ -295,7 +298,7 @@ a.rowlink:hover .r-title {
 .person .p-bio {
   font-family: var(--f-square);
   color: var(--ink-soft);
-  margin: 12px auto;
+  margin: 12px 0;
 }
 
 .person .p-contact {
@@ -477,6 +480,13 @@ a.rowlink:hover .r-title {
   height: auto;
   display: block;
   border-radius: 4px;
+}
+
+.m-item img {
+  filter: drop-shadow(0 8px 10px rgba(34,32,28,0.18));
+}
+
+.m-item video {
   background: var(--media-bg);
   box-shadow: 0 8px 20px rgba(34,32,28,0.18);
 }
@@ -525,6 +535,8 @@ a.rowlink:hover .r-title {
 .work-split {
   display: grid;
   align-items: start;
+  grid-template-columns: minmax(0, 36fr) minmax(0, 64fr);
+  gap: 24px;
   margin: 28px 0 40px;
 }
 
@@ -533,18 +545,14 @@ a.rowlink:hover .r-title {
   max-width: none;
 }
 
-.work-split .media {
-  top: 90px;
-}
-
 @media (max-width:720px) {
   .work-split {
     grid-template-columns: 1fr;
-    gap: 24px;
   }
 
   .work-split .media {
-    position: static;
+    width: min(100%, 300px);
+    margin-inline: auto;
   }
 }
 
@@ -561,9 +569,6 @@ a.rowlink:hover .r-title {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  border-radius: 4px;
-  background: var(--media-bg);
-  box-shadow: 0 8px 20px rgba(34,32,28,0.18);
 }
 
 .slide-track::-webkit-scrollbar {
@@ -1099,24 +1104,35 @@ a.rowlink:hover .r-title {
   overflow-wrap: anywhere;
 }
 
-.work-split {
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-
-.work-split .media {
-  position: static;
-}
-
 .work-end {
   margin-top: 40px;
   padding-top: 24px;
   border-top: 1px solid var(--rule);
 }
 
-.work-end p {
+.work-end h2 {
+  margin-bottom: 12px;
+  color: var(--ink-soft);
+  font: 600 18px var(--f-square);
+}
+
+.work-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 32px;
+  margin: 0 0 20px;
+  list-style: none;
+  color: var(--ink-soft);
   font-size: 15px;
-  line-height: 1.7;
+}
+
+.work-contacts li {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.work-email {
+  display: block;
 }
 
 .slide-btn {

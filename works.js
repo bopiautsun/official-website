@@ -30,7 +30,7 @@
       b.addEventListener('click', ()=>{
         filter=b.dataset.f;
         history.replaceState(null,'',filter==='all'?location.pathname:'?person='+filter);
-        renderStatement(); renderFilters(); renderWorks();
+        renderStatement(); renderFilters(); renderWorks(); renderPeople();
         elx('filters').querySelector(`[data-f="${filter}"]`).focus();
       });
     });
@@ -97,7 +97,9 @@
   }
 
   function renderPeople(){
-    const order = ['group','a','b'];
+    const singlePerson = ['a','b'].includes(filter);
+    const order = singlePerson ? [filter] : ['group','a','b'];
+    elx('people-h').textContent = singlePerson ? 'Profile & CV' : 'Profiles & CV';
     elx('peopleList').innerHTML = order.map(id=>{
       const pr = DATA.profiles?.[id]; if(!pr) return '';
       const contact = pr.contact
